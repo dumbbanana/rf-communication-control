@@ -42,7 +42,7 @@ void loop()
     for (int i = 0; i < str_out.length(); i++) {
       if (str_out.substring(i, i + 1) == ",") {
         sensor1 = str_out.substring(0, i);
-        sensor2 = str_out.substring(i + 1, i + 5);
+        sensor2 = str_out.substring(i + 1);
 
 
     Serial.print("sensor1: ");
